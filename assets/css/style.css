@@ -1,0 +1,704 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .header-first-img img {
+        width: 112px;
+        height: 66px;
+        margin-left: 10%;
+        margin-top: 21px;
+    }
+    
+    .calendar-part-1 {
+        line-height: 115%;
+    }
+    
+    .calendar-part-1 img {
+        display: inline-block;
+        width: 22px;
+        height: 21px;
+        margin-right: 8px;
+    }
+    
+    .calendar-part-1 span {
+        display: inline-block;
+        width: 130px;
+        height: 32px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 115%;
+    }
+    
+    .header-calendar {
+        width: 28%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 10%;
+        margin-top: 97px;
+    }
+    
+    .calendar-part-2 img {
+        display: inline-block;
+        width: 22px;
+        height: 21px;
+        margin-right: 8px;
+    }
+    
+    .calendar-part-2 span {
+        display: inline-block;
+        width: 130px;
+        height: 32px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 115%;
+    }
+    
+    .calendar-part-3 img {
+        display: inline-block;
+        width: 22px;
+        height: 21px;
+        margin-right: 8px;
+    }
+    
+    .calendar-part-3 span {
+        display: inline-block;
+        width: 130px;
+        height: 32px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 115%;
+    }
+    
+    .header-main-title {
+        width: 628px;
+        height: 190px;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 101.38%;
+        margin-left: 10%;
+        margin-top: 126px;
+    }
+    
+    .header-main-content p {
+        width: 414px;
+        height: 62px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 150%;
+        color: #000000;
+        margin-left: 10%;
+        margin-top: 16px;
+    }
+    
+    .header-images img:first-child {
+        width: 304px;
+        height: 356px;
+        position: absolute;
+        top: 30.4%;
+        right: 17%;
+        z-index: 1;
+    }
+    
+    .header-images img:nth-child(2) {
+        width: 274px;
+        height: 41px;
+        position: absolute;
+        top: 64.4%;
+        right: 17%;
+    }
+    
+    .header-poem {
+        width: 483.63px;
+        height: 200.02px;
+        background-color: #1E4681;
+        border-radius: 1.5%;
+        margin-left: 35%;
+        margin-top: 177px;
+        position: relative;
+    }
+    
+    .header-poem p {
+        width: 430.59px;
+        height: 113px;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 130%;
+        color: #FFFFFF;
+        padding-top: 29px;
+        margin-left: 27px;
+    }
+    
+    .header-poem span {
+        display: inline-block;
+        width: 280.5px;
+        height: 45.64px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 15px;
+        line-height: 130%;
+        color: #FFFFFF;
+        position: absolute;
+        bottom: -5px;
+        right: -65px;
+    }
+    
+    .header-intro-title {
+        width: 365px;
+        height: 93px;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 101.38%;
+        color: #000000;
+        margin-left: 10%;
+        margin-top: 157px;
+    }
+    
+    .header-intro-text {
+        width: 662px;
+        height: 374px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 150%;
+        color: #000000;
+        margin-left: 10%;
+        margin-top: 18px;
+    }
+    
+    .intro-img-big {
+        width: 314px;
+        height: 315px;
+        position: absolute;
+        top: 50px;
+        right: 200px;
+        z-index: 1;
+    }
+    
+    .header-intro {
+        position: relative;
+    }
+    
+    .intro-img-ellips {
+        width: 366px;
+        height: 59px;
+        position: absolute;
+        top: 330px;
+        right: 180px;
+    }
+    
+    .intro-footer {
+        position: relative;
+    }
+    
+    .intro-footer-img-1 {
+        position: absolute;
+        z-index: 1;
+        margin-top: 94px;
+        margin-left: 10%;
+    }
+    
+    .intro-footer-img-2 {
+        position: absolute;
+        height: 32px;
+        height: 32px;
+        margin-left: 11.2%;
+        margin-top: 14.5%;
+    }
+    
+    .part-1-header {
+        width: 150px;
+        height: 39px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 130%;
+        color: #000000;
+    }
+    
+    .part-1-text {
+        width: 150px;
+        height: 39px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 130%;
+        /* or 23px */
+        color: #000000;
+    }
+    
+    .part-2-header {
+        width: 150px;
+        height: 39px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 130%;
+        color: #000000;
+    }
+    
+    .part-2-text {
+        width: 150px;
+        height: 39px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 130%;
+        /* or 23px */
+        color: #000000;
+    }
+    
+    .part-3-text {
+        width: 150px;
+        height: 39px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 130%;
+        /* or 23px */
+        color: #000000;
+    }
+    
+    .part-3-header {
+        width: 150px;
+        height: 39px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 130%;
+        color: #000000;
+    }
+    
+    .intro-footer-content {
+        width: 638px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 168px;
+        left: 37%;
+    }
+    
+    .format-header {
+        margin-top: 480px;
+        margin-left: 10%;
+    }
+    
+    .format-header p {
+        width: 667px;
+        height: 93px;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 101.38%;
+        color: #000000;
+    }
+    
+    .format-text {
+        width: 879px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 10%;
+        margin-top: 90px;
+    }
+    
+    .part1 {
+        width: 150px;
+        height: 39px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 130%;
+        /* or 32px */
+        color: #1E4681;
+    }
+    
+    .part2 {
+        width: 223px;
+        height: 39px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 130%;
+        /* or 23px */
+        color: #000000;
+    }
+    
+    #intro-list {
+        margin-top: 240px;
+    }
+    
+    #intro-list p {
+        width: 667px;
+        height: 93px;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 101.38%;
+        /* or 56px */
+        color: #000000;
+        margin-left: 10%;
+    }
+    
+    .intro-list-ul {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 150%;
+        /* or 36px */
+        color: #000000;
+        margin-left: 11%;
+        margin-top: 21px;
+    }
+    
+    #main {
+        padding: 84px;
+        margin-bottom: 121px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #main .header-container {
+        height: 93px;
+        width: 905px;
+        margin-right: 260px;
+        margin-bottom: 95px;
+    }
+    
+    #main .header-container .header {
+        font-family: Roboto Slab;
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    
+    #main .cards-container {
+        width: 1271px;
+        height: 1070px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #main .cards-container .card-container {
+        position: relative;
+        background-color: #fff;
+        width: 399px;
+        height: 328px;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        margin-bottom: 41px;
+        margin-right: 37px;
+    }
+    
+    #main .cards-container .card-container:nth-child(3),
+    #main .cards-container .card-container:nth-child(6) {
+        margin-right: 0;
+    }
+    
+    #main .cards-container .card-container .card {
+        width: 399px;
+        height: 160px;
+    }
+    
+    #main .cards-container .card-container .card-1 {
+        background: url('/assets/images/Rectangle1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #main .cards-container .card-container .card-2 {
+        background: url('/assets/images/Rectangle2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #main .cards-container .card-container .card-3 {
+        background: url('/assets/images/Rectangle3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #main .cards-container .card-container .card-4 {
+        background: url('/assets/images/Rectangle4.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #main .cards-container .card-container .card-5 {
+        background: url('/assets/images/Rectangle5.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #main .cards-container .card-container .card-6 {
+        background: url('/assets/images/Rectangle6.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #main .cards-container .card-container .card-7 {
+        background: url('/assets/images/Rectangle7.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #main .cards-container .card-container .card-8 {
+        background: url('/assets/images/Rectangle8.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #main .cards-container .card-container .card-header {
+        position: absolute;
+        height: 39px;
+        width: 365px;
+        left: 20px;
+        top: 171px;
+        font-size: 30px;
+    }
+    
+    #main .cards-container .card-container .card-text {
+        width: 365px;
+        height: 63px;
+        position: absolute;
+        left: 19px;
+        top: 242px;
+        font-weight: 400;
+        font-size: 25px;
+        bottom: 23px;
+    }
+    
+    @media (min-width:992px) and (max-width: 1280px) {
+        .header-first-img img {
+            width: 64.87px;
+            height: 38.23px;
+        }
+        .calendar-part-1 img {
+            width: 12.74px;
+            height: 12.16px;
+        }
+        .calendar-part-1 span {
+            width: 75.29px;
+            height: 18.53px;
+            font-size: 12px;
+        }
+        .calendar-part-2 img {
+            width: 12.74px;
+            height: 12.16px;
+        }
+        .calendar-part-2 span {
+            width: 75.29px;
+            height: 18.53px;
+            font-size: 12px;
+        }
+        .header-calendar {
+            width: 32%;
+            margin-top: 57px;
+        }
+        .calendar-part-3 img {
+            width: 12.74px;
+            height: 12.16px;
+        }
+        .calendar-part-3 span {
+            width: 75.29px;
+            height: 18.53px;
+            font-size: 12px;
+        }
+        .header-main-title {
+            width: 363.72px;
+            height: 110.04px;
+            font-size: 80px;
+            font-size: 46px;
+            line-height: 101.38%;
+            margin-top: 8px;
+        }
+        .header-main-content p {
+            width: 264px;
+            height: 36px;
+            font-size: 12px;
+            margin-top: 3px;
+        }
+        .header-images img:first-child {
+            width: 176.07px;
+            height: 206.18px;
+            top: 36%;
+        }
+        .header-images img:nth-child(2) {
+            width: 158.69px;
+            height: 23.75px;
+            top: 62%;
+        }
+        .header-poem {
+            width: 280.11px;
+            height: 115.83px;
+        }
+        .header-poem p {
+            width: 249.38px;
+            height: 65.45px;
+            font-size: 14px;
+        }
+        .header-poem span {
+            width: 162.46px;
+            height: 26.43px;
+            font-size: 12px;
+            right: -50px;
+        }
+        .header-intro-title {
+            width: 211.4px;
+            height: 53.86px;
+            font-size: 32px;
+            margin-top: 100px;
+        }
+        .header-intro-text {
+            width: 383.41px;
+            height: 216.61px;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .intro-img-big {
+            width: 314px;
+            height: 315px;
+            position: absolute;
+            top: 50px;
+            right: 200px;
+            z-index: 1;
+        }
+        .header-intro {
+            position: relative;
+        }
+        .intro-img-ellips {
+            width: 366px;
+            height: 59px;
+            position: absolute;
+            top: 330px;
+            right: 180px;
+        }
+        #main {
+            margin-bottom: 52.6px;
+        }
+        #main .header-container {
+            height: 53.86px;
+            width: 524.14px;
+            margin-right: 145px;
+            margin-bottom: 55.02px;
+        }
+        #main .header-container .header {
+            font-size: 32px;
+            line-height: 32.44px;
+        }
+        #main .cards-container {
+            width: 736.12px;
+            height: 619.71px;
+        }
+        #main .cards-container .card-container {
+            width: 231px;
+            height: 190px;
+            border-radius: 17px;
+            margin-bottom: 26px;
+            margin-right: 21.43px;
+        }
+        #main .cards-container .card-container .card {
+            width: 231.09px;
+            height: 92.67px;
+        }
+        #main .cards-container .card-container:nth-child(3),
+        #main .cards-container .card-container:nth-child(6) {
+            margin-right: 0;
+        }
+        #main .cards-container .card-container .card-header {
+            height: 22.5px;
+            width: 211px;
+            left: 11.5px;
+            top: 99px;
+            font-size: 17px;
+        }
+        #main .cards-container .card-container .card-text {
+            width: 211.4px;
+            height: 36.49px;
+            left: 11px;
+            bottom: unset;
+            top: 140.16px;
+            font-size: 14px;
+        }
+    }
+    
+    @media (min-width:320px) and (max-width: 991px) {
+        #main {
+            margin-bottom: 47.16px;
+        }
+        #main .header-container {
+            height: 43.33px;
+            width: 421.7px;
+            margin-right: -120px;
+            margin-bottom: 35.66px;
+        }
+        #main .header-container .header {
+            font-size: 26px;
+            line-height: 26.36px;
+        }
+        #main .cards-container {
+            width: 186.92px;
+            height: 1391.84px;
+        }
+        #main .cards-container .card-container {
+            height: 152.83px;
+            width: 185.92px;
+            border-radius: 17px;
+            margin-bottom: 24px;
+            margin-right: 0;
+        }
+        #main .cards-container .card-container .card {
+            width: 185.92px;
+            height: 74.56px;
+        }
+        #main .cards-container .card-container .card-header {
+            width: 170.08px;
+            height: 18.17px;
+            left: 9.32px;
+            top: 79.68px;
+            font-size: 14px;
+        }
+        #main .cards-container .card-container .card-text {
+            width: 170.08px;
+            height: 29.36px;
+            left: 8.85px;
+            bottom: unset;
+            top: 112.77px;
+            font-size: 12px;
+        }
+    }
